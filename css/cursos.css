@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* sinicio menu*/
+/* cores cyber punk*/
+   
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+/* final do menu */
+
+
+
+img{
+  box-shadow: 5px 5px;
+  width: 50%;
+}
+
+.grid-container {
+  display: grid; /* Cria um grid */
+  grid-template-columns: repeat(3, 1fr); /* Define o número de colunas do grid */
+  grid-gap: 10px; /* Define o espaçamento entre os grids */
+  margin: 20px; /* Define a margem em torno do grid */
+}
+/* Aplica os estilos CSS para cada grid */
+.grid-item {
+  background-color:transparent;/* Define a cor de fundo */
+  padding-top:30px; /* Define o preenchimento de cima */
+  text-align: center; /* Centraliza o texto */
+  font-size: 20px; /* Define o tamanho da fonte */
+  border-radius: 5px; /* Define a borda arredondada */
+}
+
+

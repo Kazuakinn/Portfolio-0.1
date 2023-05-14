@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* sinicio menu*/
+/* cores cyber punk*/
+   
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+/* final do menu */
+
+.gif{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gt{
+  width: 400px;
+}
+
+.container {
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.skill {
+  margin: 20px;
+  max-width: 230px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #00FF00 ;
+  border-radius: 5px;
+}
+
+#html-basic-value, #html-intermediate-value, #html-advanced-value, #html-cdw-value, #html-jv-value,
+#html-pht-value{
+  display: block;
+  text-align: right;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+
